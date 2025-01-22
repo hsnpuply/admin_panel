@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    .dashboard span:not(.not-active){
+        @apply hover:text-iconic_blue;
+    }
+}
