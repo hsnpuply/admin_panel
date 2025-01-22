@@ -28,8 +28,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:dashboard-square-01"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4">Dashboard</span>
             </div>
@@ -65,8 +67,9 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center justify-between ">
               <Icon
                 icon="hugeicons:user-circle-02"
-                width="24"
-                height="24"
+                width="18"
+                class="text-gray_500"
+                height="18"
               />
               <span class="ml-4">Public Profile</span>
             </div>
@@ -85,12 +88,16 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:setting-07"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
-              <span class="ml-4">My Account</span>
+              <span class="ml-4 ">My Account</span>
             </div>
-            <Icon icon="hugeicons:plus-sign" class="text-gray_500" width="18" height="18" />
+            <Icon icon="hugeicons:plus-sign" class="text-gray_500" width="18" height="18" 
+            
+             />
           </div>
 
         </div>
@@ -106,8 +113,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:user-multiple-02"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4">Network</span>
             </div>
@@ -128,8 +137,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:location-user-04"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4">Authentication</span>
             </div>
@@ -156,8 +167,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:user-multiple-02"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4 not-active">User Managment</span>
             </div>
@@ -176,8 +189,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:scroll"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4 not-active">Projects</span>
             </div>
@@ -197,8 +212,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:shopping-cart-01"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4 not-active">eCommerce</span>
             </div>
@@ -228,8 +245,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:ai-network"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4 not-active">Modals</span>
             </div>
@@ -248,8 +267,10 @@ import { Icon } from "@iconify/vue";
             <div class="dashboard flex items-center">
               <Icon
                 icon="hugeicons:magic-wand-01"
-                width="24"
-                height="24"
+                width="18"
+                height="18"
+                class="text-gray_500"
+
               />
               <span class="ml-4 not-active">Wizards</span>
             </div>
