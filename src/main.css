@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --iconic_blue:'#1b84ff'
+}
+body{
+    font-family: "Inter", serif;
+}
+
+.light_side_bar::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* background:url(../src/assets/images/icons/bullet_dot.png) ; */
+    background-color:var(--iconic_blue) ;
+    width: 100%;
+    height: 100%;
+}
