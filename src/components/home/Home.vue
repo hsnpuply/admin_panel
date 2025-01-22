@@ -19,7 +19,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 "
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -52,12 +52,12 @@ import { Icon } from "@iconify/vue";
       <div class="user_section pl-8 flex flex-col items-start   mt-3">
         <h3 class="uppercase text-gray_500 mb-[1.375rem]">user</h3>
       <!-- user section -->
-        <div class="users_nav flex flex-col gap-[1.75rem]">
+        <div class="users_nav flex flex-col gap-[1.75rem] w-full bg-violet-500 ">
           <div
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  bg-red-800"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -77,7 +77,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -98,7 +98,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -120,7 +120,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -148,7 +148,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -168,7 +168,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -189,7 +189,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -211,7 +211,7 @@ import { Icon } from "@iconify/vue";
           class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
         >
           <div
-            class="head_menu flex items-center justify-between  mr-8"
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
             @click="toggle_dashoard"
           >
             <div class="dashboard flex items-center">
@@ -229,10 +229,60 @@ import { Icon } from "@iconify/vue";
         </div>
 
       </div>
+      <!-- Miscellaneous -->
+      
+      <div class="user_section pl-8 flex flex-col items-start   mt-3">
+        <h3 class="uppercase text-gray_500 mb-[1.375rem] text-[13px ]">Miscellaneous</h3>
+      <!-- user section -->
+        <div class="users_nav flex flex-col gap-[1.75rem]">
+          <div
+          class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer"
+        >
+          <div
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500"
+            @click="toggle_dashoard"
+          >
+            <div class="dashboard flex items-center">
+              <Icon
+                icon="hugeicons:user-circle-02"
+                width="24"
+                height="24"
+              />
+              <span class="ml-4">Modals</span>
+            </div>
+            <Icon icon="hugeicons:plus-sign" width="24" height="24" />
+          </div>
+
+        </div>
+
+        <div
+          class="dashboard flex flex-col gap-[0.75rem] w-full cursor-pointer "
+        >
+          <div
+            class="head_menu flex items-center justify-between  mr-8 w-full bg-red-500 bg-red-500 w-full"
+            @click="toggle_dashoard"
+          >
+            <div class="dashboard flex items-center">
+              <Icon
+                icon="hugeicons:setting-07"
+                width="24"
+                height="24"
+              />
+              <span class="ml-4">Wizards</span>
+            </div>
+            <Icon icon="hugeicons:plus-sign" width="24" height="24" />
+          </div>
+
+        </div>
+        
+      
+
+        </div>
+
       </div>
 
 
-
+      </div>
 
       
     </div>
