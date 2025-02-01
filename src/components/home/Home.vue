@@ -103,9 +103,9 @@ import { Icon } from "@iconify/vue";
                 <div class="dashboard flex items-center justify-between">
                   <Icon
                     icon="hugeicons:user-circle-02"
-                    class="text-gray_500 w-[2.25rem] h-[2.25rem]"
+                    class="text-gray_500 w-[1.25rem] h-[1.25rem]"
                   />
-                  <span class="ml-4" :class="isSlim_sidebar ? 'opacity-0' : 'opacity-100'"
+                  <span class="ml-4" :class="isSlim_sidebar ? 'opacity-0 hidden' : 'opacity-100 block'"
                     >Public Profile</span
                   >
                 </div>
@@ -124,9 +124,9 @@ import { Icon } from "@iconify/vue";
                 <div class="dashboard flex items-center">
                   <Icon
                     icon="hugeicons:setting-07"
-                    class="text-gray_500 !w-[1.75rem] h-full"
+                    class="text-gray_500  w-[1.25rem] h-[1.25rem]"
                   />
-                  <span class="ml-4" :class="isSlim_sidebar ? 'opacity-0' : 'opacity-100'"
+                  <span class="ml-4" :class="isSlim_sidebar ? 'opacity-0 hidden' : 'opacity-100 block '"
                     >My Account</span
                   >
                 </div>
